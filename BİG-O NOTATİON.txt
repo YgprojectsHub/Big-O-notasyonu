@@ -1,0 +1,93 @@
+--Büyük-O Notasyonu--
+
+O(1): Sabit Zaman/Alan
+
+O(logn): Logaritmik Zaman/Alan
+
+O(n): Lineer Zaman/Alan
+
+O(nlogn): Doğrusal Lineer Zaman/Alan
+
+O(n^p): Polinomal Zaman/Alan
+
+O(2^n): Üstel Zaman/Alan
+
+O(n!): Faktöriyel Zaman/Alan 
+
+---------------------
+
+O(1) -> Birim zaman başına düşen iş yükü aynı.
+
+	Örnekler:
+	
+	Array de index aramak
+	LinkedList'lerin sonuna değer eklemek
+	Push/pop stacklerde
+	Enqueue/Denqueue queue
+	insert/remove/lookup hash map operasyonları
+	insert/remove/containsKey Hash set
+
+O(logn): Birim zaman başına düşen iş yükü zaman arttıkça artar.
+
+	Örnekler:
+
+	Insert/remove/lookup Ağaç Veri Yapılarında Arama
+
+O(n) -> Birim zamana düşen iş yükü zaman ile doğru orantılı olacak şekilde artar.
+
+	Örnekler:
+
+	Array içinde arama
+	Array index silme ekleme
+	LinkedList te index arama
+	Bucket sort
+	Count sort
+	Doğrusal arama
+
+----------------------Tavsiye Edilmeyen Algoritma Yapıları-----------------------------
+
+O(nlogn) -> Birim zamana düşen iş yükü virgüllü olma ihtimali olduğundan, input uzunluğundan daha fazla çalışmak durumunda kalacağı için Tavsiye edilmez ‼️
+
+	Örnekler: 
+
+	Merge sort
+	Quick sort
+
+
+O(n^p) diğer adıyla O(n^2) -> Birim zamana düşen iş yükü, input size ın karesiyle doğru orantılı olduğu için Tavsiye edilmez ‼️‼️
+
+	Örnekler:
+
+	İç içe döngüler
+	bubble sort
+	selection sort
+	insertion sort
+
+	Not:
+
+	O(n^2) -> Quadritic
+	O(n^3) -> Cubic
+	O(n^4) -> Quadric
+
+O(2^n) -> Üstel büyümedir, en son MÖ yazıldığı tahmin edilir. Birim zamana düşen iş yükü ilk birimlerde kontrollü iken sonraki birim zamanlarda veri yönetiminde kontrol kaybedilir.
+
+	Örnekler:
+
+	Hanoi Kulesi
+
+O(n!) -> ☠️‼️☠️ Üstel büyümeye benzer fakat birim zamanın sonlarına doğru çıktı sayısı eksponansiyel dende büyük olur yani grafik kırık gözükür. Şu ana kadar bu işlemi gerçekleştiripte hala görevini yerine getirebilen bilgisiyar bulunmuyor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
